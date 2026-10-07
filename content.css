@@ -1,0 +1,61 @@
+/* FocusRead - Sayfa İçi Vurgu ve Okuma Stilleri */
+.focusread-highlight-yellow {
+  background-color: #fef08a !important;
+  color: #000000 !important;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+.focusread-highlight-green {
+  background-color: #bbf7d0 !important;
+  color: #000000 !important;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+.focusread-highlight-blue {
+  background-color: #bae6fd !important;
+  color: #000000 !important;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+/* Karanlık Mod Stili & Reklam / Banner Gizleme */
+body.focusread-dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+body.focusread-dark-mode p, 
+body.focusread-dark-mode h1, 
+body.focusread-dark-mode h2, 
+body.focusread-dark-mode h3, 
+body.focusread-dark-mode li, 
+body.focusread-dark-mode span {
+  color: #e0e0e0 !important;
+}
+
+body.focusread-dark-mode iframe,
+body.focusread-dark-mode [class*="banner"],
+body.focusread-dark-mode [class*="reklam"],
+body.focusread-dark-mode [id*="reklam"],
+body.focusread-dark-mode [class*="ad-box"],
+body.focusread-dark-mode [id*="google_ads"] {
+  opacity: 0.15 !important;
+  filter: grayscale(100%) !important;
+}
+
+/* Sepya Mod Stili */
+body.focusread-sepia-mode {
+  background-color: #fbf0d9 !important;
+  color: #5f4b32 !important;
+}
+
+body.focusread-sepia-mode p, 
+body.focusread-sepia-mode h1, 
+body.focusread-sepia-mode h2, 
+body.focusread-sepia-mode h3, 
+body.focusread-sepia-mode li, 
+body.focusread-sepia-mode span {
+  color: #5f4b32 !important;
+}

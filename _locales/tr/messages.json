@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "FocusRead" },
+  "appDesc": { "message": "Reklam ve karmaşadan arındırılmış, yapay zeka destekli temiz okuma ve arşivleme eklentisi." },
+  "bannerText": { "message": "📖 Bu içeriği <strong>FocusRead</strong> ile oku" },
+  "bannerBtn": { "message": "FocusRead ile Oku" },
+  "btnAi": { "message": "🤖 Yapay Zeka Özeti" },
+  "btnDark": { "message": "🌙 Gece Modu" },
+  "btnWa": { "message": "💬 WhatsApp" },
+  "btnPdf": { "message": "📄 PDF / İndir" },
+  "aiModalTitle": { "message": "✨ Yapay Zeka İçerik Özeti" },
+  "aiAnalyzing": { "message": "Yapay zeka içeriği analiz ediyor, lütfen bekleyin..." },
+  "aiNoText": { "message": "Özet çıkarılacak yeterli metin bulunamadı." },
+  "copyrightLabel": { "message": "Orijinal Kaynak URL:" },
+  "copyrightNote": { "message": "* Bu içerik FocusRead kişisel okuma asistanı ile bilgi ve kişisel arşiv amacıyla derlenmiştir." },
+  "penYellow": { "message": "Sarı Kalem" },
+  "penGreen": { "message": "Yeşil Kalem" },
+  "penBlue": { "message": "Mavi Kalem" },
+  "penPink": { "message": "Pembe Kalem" }
+}

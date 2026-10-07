@@ -1,0 +1,19 @@
+{
+  "appName": { "message": "FocusRead" },
+  "appDesc": { "message": "AI-powered distraction-free reading and archiving extension." },
+  "bannerText": { "message": "📖 Read this article with <strong>FocusRead</strong>" },
+  "bannerBtn": { "message": "Read with FocusRead" },
+  "btnAi": { "message": "🤖 AI Summary" },
+  "btnDark": { "message": "🌙 Dark Mode" },
+  "btnWa": { "message": "💬 WhatsApp" },
+  "btnPdf": { "message": "📄 PDF / Download" },
+  "aiModalTitle": { "message": "✨ AI Content Summary" },
+  "aiAnalyzing": { "message": "AI is analyzing the article, please wait..." },
+  "aiNoText": { "message": "Not enough text found to generate a summary." },
+  "copyrightLabel": { "message": "Original Source URL:" },
+  "copyrightNote": { "message": "* This content was compiled with FocusRead personal assistant for research and archiving." },
+  "penYellow": { "message": "Yellow Highlighter" },
+  "penGreen": { "message": "Green Highlighter" },
+  "penBlue": { "message": "Blue Highlighter" },
+  "penPink": { "message": "Pink Highlighter" }
+}
