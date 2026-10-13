@@ -5,8 +5,8 @@
   const isEn = userLang.startsWith('en');
 
   const dict = {
-    bannerText: isEn ? '📖 Read this article with <strong>FocusRead</strong>' : '📖 Bu içeriği <strong>FocusRead</strong> ile oku',
-    bannerBtn: isEn ? 'Read with FocusRead' : 'FocusRead ile Oku'
+    bannerText: isEn ? '📖 Simplify and focus on content' : '📖 İçeriği sadeleştir ve odaklan',
+    bannerBtn: isEn ? 'FocusRead Mode' : 'FocusRead Modu'
   };
 
   function parsePageArticle() {

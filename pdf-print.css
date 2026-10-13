@@ -1,0 +1,137 @@
+@media print {
+  /* 1. HER A4 SAYFASINA KESİN VE SABİT 1.5 CM TAVAN/TABAN BOŞLUĞU */
+  @page {
+    size: A4 portrait;
+    margin-top: 1.5cm !important;
+    margin-bottom: 1.5cm !important;
+    margin-left: 1.2cm !important;
+    margin-right: 1.2cm !important;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* 2. EKRAN ARAYÜZÜ VE MENÜLERİ TAMAMEN GİZLE */
+  .top-toolbar, 
+  #highlight-palette, 
+  .modal-overlay, 
+  iframe, 
+  button, 
+  .pagination-bar, 
+  .nav-controls {
+    display: none !important;
+  }
+
+  /* 3. A4 İÇERİK KAPSAYICISI */
+  .pdf-page-wrapper {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* 4. MAVİ FOCUSREAD ARŞİV KUŞAĞI */
+  .fr-print-header-ribbon {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    background-color: #0284c7 !important;
+    color: #ffffff !important;
+    padding: 8px 14px !important;
+    border-radius: 4px !important;
+    margin-bottom: 20px !important;
+    font-family: system-ui, -apple-system, sans-serif !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  .fr-print-header-left {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    color: #ffffff !important;
+  }
+
+  .fr-print-badge {
+    width: 8px !important;
+    height: 8px !important;
+    background-color: #ffffff !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+  }
+
+  .fr-print-header-right {
+    color: #f0f9ff !important;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+  }
+
+  /* 5. BAŞLIK VE KOPYALAMA DÜZENİ */
+  h1#article-title {
+    line-height: 1.3 !important;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    color: #0f172a !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  .article-copyright {
+    font-size: 11px !important;
+    margin-bottom: 16px !important;
+    padding-bottom: 8px !important;
+    border-bottom: 1px dashed #cbd5e1 !important;
+    color: #475569 !important;
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  /* 6. YAZILAR SATIR SATIR DOĞAL AKAR */
+  #article-content p,
+  #article-content ul,
+  #article-content ol,
+  #article-content blockquote {
+    text-align: justify !important;
+    margin-bottom: 12px !important;
+    color: #000000 !important;
+    display: block !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+    orphans: 2 !important;
+    widows: 2 !important;
+  }
+
+  #article-content h2,
+  #article-content h3,
+  #article-content h4 {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  /* 7. YALNIZCA GÖRSELLER İKİYE BÖLÜNMEZ (SIĞMAYAN RESİM ALT SAYFAYA KAYAR) */
+  #article-content img,
+  #article-content figure {
+    max-height: 240px !important;
+    width: auto !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+    display: block !important;
+    margin: 14px auto !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    break-inside: avoid-page !important;
+  }
+}

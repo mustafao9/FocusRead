@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" width="100%" height="100%">
+  <!-- İkon: Odak Noktalı Kitap Simgesi -->
+  <g transform="translate(0, 2)">
+    <!-- Kitap Sayfaları -->
+    <path d="M6 10 C12 6, 18 10, 18 10 L18 30 C18 30, 12 26, 6 30 Z" fill="#0284c7" />
+    <path d="M30 10 C24 6, 18 10, 18 10 L18 30 C18 30, 24 26, 30 30 Z" fill="#38bdf8" />
+    <!-- Odak Merceği / NİŞANGAH HALKASI -->
+    <circle cx="18" cy="18" r="7" stroke="#ffffff" stroke-width="2" fill="none" />
+    <circle cx="18" cy="18" r="2.5" fill="#ffffff" />
+  </g>
+
+  <!-- Tipografi: Focus (Bold Koyu Mavi) + Read (Regular Açık Mavi) -->
+  <text x="44" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#0f172a" letter-spacing="-0.5">Focus</text>
+  <text x="114" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="400" fill="#0284c7" letter-spacing="-0.5">Read</text>
+</svg>
